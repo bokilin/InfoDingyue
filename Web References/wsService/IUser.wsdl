@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://user.service.fx.com/" name="IUser" targetNamespace="http://user.service.fx.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="http://user.service.fx.com/" elementFormDefault="unqualified" targetNamespace="http://user.service.fx.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="getUserInfo" type="tns:getUserInfo" />
+      <xs:element name="getUserInfoResponse" type="tns:getUserInfoResponse" />
+      <xs:complexType name="getUserInfo">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="arg0" type="xs:string" />
+          <xs:element minOccurs="0" name="arg1" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="getUserInfoResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="return" type="xs:string" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getUserInfo">
+    <wsdl:part name="parameters" element="ns1:getUserInfo" />
+  </wsdl:message>
+  <wsdl:message name="getUserInfoResponse">
+    <wsdl:part name="parameters" element="ns1:getUserInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IUser">
+    <wsdl:operation name="getUserInfo">
+      <wsdl:input name="getUserInfo" message="ns1:getUserInfo" />
+      <wsdl:output name="getUserInfoResponse" message="ns1:getUserInfoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

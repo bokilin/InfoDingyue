@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://tel.admnzgft.com/ws/userInfoCallCenterService?wsdl=IUser.wsdl" filename="IUser.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://tel.admnzgft.com/" filename="UserWS.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

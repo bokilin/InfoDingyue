@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowsApplicationForTestAgentconsole_WebReference_InfoCenterWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.181.1/InfoACD/InfoCenterWebService.asmx</Value>
+    </Setting>
+    <Setting Name="WindowsApplicationForTestAgentconsole_wsService_UserWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://tel.admnzgft.com/ws/userInfoCallCenterService</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
