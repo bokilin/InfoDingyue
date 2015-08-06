@@ -3,7 +3,7 @@ Public Class Form1
     Dim ws As New WebReference.InfoCenterWebService
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Try
-
+            Dim i As Int16
         Catch ex As Exception
             MsgBox(ex.ToString)
         End Try
